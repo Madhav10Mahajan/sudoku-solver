@@ -3,6 +3,14 @@
 # **Introduction**
 These are a suite of C++ programs which deal with Sudoku Puzzles. The name might be misleading, yes, but these programs don't just solve Sudoku puzzles, they also achieve other objectives such as Sudoku Puzzle Validation and Sudoku Puzzle Generation (Under development).
 
+# **Getting Started**
+Simply download the sudokusolver_programme.cpp file found in the Sudoku-Solver/ directory. Run it using any standard C++ compiler. In case of any errors or compatibility issues, submit an issue in this git.
+
+Once downloaded, compiled and run; the program will require the user to input the Sudoku puzzle into it.
+
+The user can write all the values into a file, seperated by whitespaces. The file can have any name or extension. When the program is running, the user will be prompted to simply enter the name of the file (with extension). Below is an example of how the contents of such a file might look. Look at the sample.txt files in the same directory for more examples.
+
+
 # **How It Works**
 This particular algorithm employs the use of backtracking, one of the more common methods to solve Sudoku puzzles. I've written a simple algorithm to give an idea of how the program works.
 
